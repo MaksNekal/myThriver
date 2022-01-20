@@ -1,0 +1,490 @@
+ body{
+    font-family: Larsseit;
+    font-weight: 800;
+    font-style: normal;
+    color: #22356F;
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+} 
+
+*{
+    box-sizing: border-box ;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 48px;
+}
+
+h2{
+    font-size: 36px;
+}
+
+h3{
+    font-size: 32px;
+    color:#fff;
+}
+
+h4{
+    font-size: 28px;
+    letter-spacing: -3%;
+    color: #22356F;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h5{
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h6{
+    font-size: 14px;
+}
+
+p{
+    font-size: 24px;
+    font-weight: 100;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+    font-weight: normal;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+ul,li{
+    margin:0;
+    padding: 0;
+    display: block;
+    
+}
+
+.conteiner{
+    margin-left: 179px;
+}
+
+.header{
+    background-color: #F4F9E2;
+    padding-top: 30px;
+    width: 1117px;
+    padding-bottom: 75px;
+}
+
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav__menu{
+    display: flex;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.nav__menu a{
+    padding-right: 27px;
+}
+
+.logo{
+    color:#62D0DF;
+    font-size: 24px;
+    letter-spacing: -3.5%;
+    font-weight: bold;
+    padding-right: 223px;
+}
+
+.nav__btn{
+   margin-left: 292px;
+   position: relative;
+   z-index: 3;
+
+}
+
+.btn{
+    background-color: #62D0DF;
+    color:#fff;
+    border-radius: 50px;
+    font-size: 14px;
+    width: 150px;
+    height: 50px;
+    border: none;
+}
+
+.offer{ 
+   display: flex;
+   justify-content: space-between;
+   height: 650px;
+   
+}
+
+.offer__logo{
+    padding-bottom: 50px;
+
+}
+
+.offer__info{
+    padding-top: 163px;
+    
+}
+
+.offer__title{
+    width: 484px;
+    line-height: 95%;
+}
+
+.offer__information{
+    width: 484px;
+    padding-top: 69px;
+    line-height: 150%;
+}
+
+.offer__btn{
+    background-color: #F9B640;
+    color:#fff;
+    font-size: 16px;
+    width: 150px;
+    height: 50px;
+    border: none;
+}
+
+.link-btn{
+    padding-top: 63px;
+}
+
+.link-btn a{
+    color:#F9B640;
+    font-size: 16px;
+    padding-left: 38px;
+}
+
+.img-main{
+    position: relative;
+    transform: translate(30px,-80px);
+    z-index: 2;
+    margin-left: auto;
+}
+
+.offer__img-backgraund{
+    position: relative;
+    transform: translate(168px,-908px);
+    z-index: 1;
+}
+
+.why-thriver{
+    background-color: #62D0DF;
+    width: 1440px;
+}
+
+.why-triver__body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.why-thriver__offer{
+    color:#fff;
+}
+
+.why-thriver__title{
+    letter-spacing: -0.6%;
+    padding-top: 151px;
+    padding-bottom: 75px;
+}
+
+.why-thriver__information{
+    width: 555px;
+   
+
+}
+.why-thriver__information-question{
+    font-weight: bold;
+    font-style: normal;
+    line-height: 35px;
+}
+
+.why-thriver__information-span{
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 25px;
+}
+
+.about-us{
+  padding-bottom: 24px;
+}
+
+.about-us__body{
+    display: flex;
+    padding-top: 155px;
+}
+
+.about-us__title{
+    padding-right: 152px;
+}
+
+.about-us__paragraph{
+    width: 592px;
+}
+
+.about-us__help{
+    color:#22356F;
+    text-align: center;
+    padding-top: 76px;
+}
+
+.sport{
+    padding-bottom: 120px;
+}
+
+.card{
+    width: 360px;
+    height: 360px;
+    background-color: #FFE2DE; 
+}
+
+.card ul li:before{
+    content:"\2022";
+    color: #E9B730;
+    font-size: 32px;
+}
+
+.card li{
+    font-size: 32px;
+    color: #fff;
+}
+
+.card__title{
+    padding-left: 54px;
+   text-decoration: overline;
+   padding-top: 72px;
+}
+
+.point{
+    width: 10px;
+	height: 10px;
+	background: #E9B730;
+	border-radius: 50px;
+}
+
+.sport__view{
+    display: flex;
+}
+
+.card_color_green{
+    background-color: #C4E769;
+
+}
+
+.card_color_blue{
+    background-color: #62D0DF;
+}
+
+.card_color_dark-blue{
+    background-color: #0052C1;
+}
+
+.card__title_width{
+    width: 230px;
+}
+.spining{
+    text-decoration: none;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list__card{
+    width: 480px;
+    height: 480px;
+}
+
+.card__title_location{
+    padding-left: 72px;
+    padding-top: 126px;
+}
+
+.list__card_color_dark-blue{
+    background-color: #22356F;
+}
+
+.list__card_backgraund{
+    background-image: url("../img/joanna-kosinska-340748.jpg");
+}
+
+.list__card_color_light-fiolet{
+    background-color: #DEE1FF;
+}
+
+.list__card_color_fiolet{
+    background-color: #8F00FF;
+}
+
+.view{
+    padding-top: 22px;
+}
+
+.view__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block{
+    padding: 55px 105px 33px 77px;
+}
+
+.block_paragraph{
+    font-size: 16px;
+    color:#22356F;
+    letter-spacing: -3%;
+    padding-top: 30px;
+    width: 298px;
+    height: 85px;
+}
+
+.block-know{
+    display: flex;
+}
+
+.block-know__information{
+    padding-left: 106px;
+    
+}
+
+.block-know__title{
+    padding-top: 103px;
+}
+
+.block-know__paragraph{
+    width: 676px;
+    height: 215px;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    padding-top: 225px;
+}
+
+/* .block-know__link{
+    font-size: 16px;
+    color: #FAB63E; 
+    font-weight: bold;
+    font-style: normal;
+} */
+
+.contact-us{
+    background-color: #22356F;
+    height: 800px;
+    color: #fff;
+}
+
+
+.contact-us__body{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 180px;
+}
+
+.contact-us__title{
+    padding-top: 103px;
+    
+}
+
+.contact-us__offer-title{
+    font-size: 64px;
+    color:#fff;
+    padding-top: 230px;
+}
+
+.contact-us__offer-paragraph{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: normal;
+    width: 579px;
+    letter-spacing: 125%;
+    padding-top: 75px;
+}
+
+.contact-us__link{
+    padding-top: 74px;
+    color: #62D0DF;
+}
+
+.footer-body{
+    display: flex;
+}
+
+.footer-info{
+    padding-top: 98px;
+    padding-left: 68px;
+    display: flex;
+}
+
+.footer-info__block-2{
+    margin-left: 53px;
+    margin-right: 53px;
+}
+
+.footer-info__block-2 h6{
+    padding-left: 40px;
+}
+
+.footer-paragraph{
+    font-size: 14px;
+    color:#909AB7;
+    width: 170px;
+    padding-top: 54px
+}
+
+.number{
+    font-size: 14px;
+    color:#909AB7;
+}
+
+.footer-paragraph_width{
+    width: 243px;
+    padding-bottom: 39px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-right: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+}
+
+.footer-paragraph_padding{
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+
+.footer-paragraph_style{
+    width: 101px;
+}
+
+.link{
+   color: #006DFF;
+}
+
+.footer-body__down{
+    background-color: #62D0DF;
+    
+}
+
+.footer__text{
+    color: #fff;
+    padding-top: 32px;
+    padding-bottom: 26px;
+    padding-left: 194px;
+}
